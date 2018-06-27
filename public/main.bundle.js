@@ -47,7 +47,7 @@ var ApiService = /** @class */ (function () {
         this.afs = afs;
         this.fbAuth = fbAuth;
         this.storage = storage;
-        this.serverUrl = 'https://ec2-13-229-128-0.ap-southeast-1.compute.amazonaws.com:8080/';
+        this.serverUrl = 'https://ec2-13-229-128-0.ap-southeast-1.compute.amazonaws.com:3001/';
         console.log(localStorage.getItem('uid'));
         this.adminId = localStorage.getItem('uid');
     }
